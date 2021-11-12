@@ -17,5 +17,5 @@ J = (1/m) * (-y' * log(h_theta) - (1-y)' * log(1-h_theta)) + (lambda/(2*m)) * (t
 thetaZero = theta;
 thetaZero(1) = 0;
 
-grad = ((1 / m) * (h_theta - y)' * X) + lambda / m * thetaZero';
+grad = ((1 / m) * (h_theta - y)' * X) + lambda / m * thetaZero;
 end
